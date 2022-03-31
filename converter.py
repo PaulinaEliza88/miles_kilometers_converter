@@ -30,7 +30,7 @@ width = 400
 height = 160
 half_screen_width = root.winfo_screenwidth()//2 - width//2
 half_screen_height = root.winfo_screenheight()//2 - height//2
-root.geometry(f"{width}x{height}+{half_screen_width}+{half_screen_height}")  # miejsce lewego górnego rogu
+root.geometry(f"{width}x{height}+{half_screen_width}+{half_screen_height}")  
 root.resizable(width=False, height=False)
 root["bg"] = "snow2"
 
